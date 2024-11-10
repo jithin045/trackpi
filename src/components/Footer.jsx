@@ -1,5 +1,4 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
 import { Row, Col, Button } from 'react-bootstrap'
 
 function Footer() {
@@ -19,8 +18,13 @@ function Footer() {
               <i className="fa-brands fa-linkedin-in fa-lg text-white"></i>
             </div>
             <p className='text-center text-white'>Email: hello@motivatedmornings.work </p>
-            <p className='text-center text-white'>&copy; 2020 motivated mornings, Inc. All rights reserved. Site by <a href="">Knapsack.</a> </p>
-            <p className='text-center text-white'><a href="">guidelines.</a> <a href="">privacy</a> <a href="">terms</a> <a href="">members</a>  </p>
+            <p className='text-center text-white'>&copy; 2020 motivated mornings, Inc. All rights reserved. Site by <a href="" className='text-decoration-none me-2 text-white'>Knapsack</a> </p>
+            <p className='text-center text-white '>
+              <a href="" className='text-decoration-none me-2 text-white'>guidelines</a>
+              <a href="" className='text-decoration-none me-2 text-white'>privacy</a>
+              <a href="" className='text-decoration-none me-2 text-white'>terms</a>
+              <a href="" className='text-decoration-none me-2 text-white'>members</a>
+            </p>
           </div>
         </Col>
       </Row>
