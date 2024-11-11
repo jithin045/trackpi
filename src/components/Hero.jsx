@@ -1,22 +1,22 @@
 import React from 'react'
 import Header from './Header'
 import Container from 'react-bootstrap/Container';
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
 
 
 function Hero() {
   return (
     <section className='hero' id='hero'>
-
       <Container className=''>
         <Header />
-        <Row className='herocontainer mt-5'>
+        <Row md={12} className='herocontainer mt-5'>
           <Col md={6} className='hero-column p-5 d-flex flex-column justify-content-center align-items-center'>
             <h1 className='fw-bold'>Actually do the work.</h1>
             <p>Accountability,community and productivity <br /> coaching to help you start and finish the work.</p>
             <div className='hero-btn w-50 rounded-pill d-flex justify-content-center align-items-center'>
-              <i className="fa-solid fa-play me-2 text-white"></i>
-              <span className='' >See How It Works</span>
+              <Button className='btn text-white bg-dark fw-bold p-3 rounded-pill mt-5'>
+                <i className="fa-solid fa-play me-2 text-white"></i>
+                See How It Works</Button>
             </div>
           </Col>
           <Col md={6} className='hero-column d-flex justify-content-start align-items-center'>

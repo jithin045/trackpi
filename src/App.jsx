@@ -1,6 +1,4 @@
-import { useState } from 'react'
 
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from './components/Hero'
 import { Routes, Route } from 'react-router-dom'
@@ -25,7 +23,6 @@ function App() {
       <Guide />
       <FreeGuide />
       <Footer />
-
     </>
   )
 }

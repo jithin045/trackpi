@@ -21,7 +21,7 @@ function Guide() {
                         <div className='text-center text-justify'>
                             There are so many books to read, podcasts to listen to, and <br /> courses to take... but none of that matters if you don't do the <br /> work. Motivated Mornings is a service focused on making <br />sure that your best work actually happens.<br />Offered Mon-Fri at 5am and 7am.
                         </div>
-                        <Button className='text-dark p-3 mt-5 bg-white'>Learn More <i className="fa-solid fa-arrow-right"></i></Button>
+                        <Button className='btn text-dark p-3 mt-5 fw-bold bg-white'>Learn More <i className="fa-solid fa-arrow-right"></i></Button>
                     </Col>
                 </Row>
             </Container>

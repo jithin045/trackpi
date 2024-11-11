@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
 
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
                 <Container fluid>
 
                     <Navbar.Brand href="#home">
-                        <Row md={12}>
+                        <Row >
                             <Col className='d-flex align-items-center'>
                                 <img
                                     src="https://i.pinimg.com/280x280_RS/76/62/74/7662740955928e1dcc96bc4e5cd37c4d.jpg"
@@ -34,13 +34,13 @@ function Header() {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto d-flex justify-content-evenly me-5">
-                            <Nav.Link className='nav-item text-dark' href="#hero">Who is It For</Nav.Link>
-                            <Nav.Link className='nav-item text-dark' href="#about">About</Nav.Link>
-                            <Nav.Link className='nav-item text-dark' href="#faq">FAQ</Nav.Link>
-                            <Nav.Link className='nav-item text-dark' href="#blog">Blog</Nav.Link>
-                            <Nav.Link className='nav-item text-dark' href="#user"><i className="fa-solid fa-user"></i></Nav.Link>
-                            <Nav.Link className='nav-item text-white p-2 bg-dark rounded-pill' href=" #freetrial">Start Your Free Trial</Nav.Link>
+                        <Nav id='nav' className="ms-auto d-flex justify-content-evenly ">
+                            <Nav.Link id='navlink' className='nav-item text-dark fw-bold' href="#hero">Who is It For</Nav.Link>
+                            <Nav.Link id='navlink' className='nav-item text-dark fw-bold' href="#about">About</Nav.Link>
+                            <Nav.Link id='navlink' className='nav-item text-dark fw-bold' href="#faq">FAQ</Nav.Link>
+                            <Nav.Link id='navlink' className='nav-item text-dark fw-bold' href="#blog">Blog</Nav.Link>
+                            <Nav.Link id='navlink' className='nav-item text-dark fw-bold' href="#user"><i className="fa-solid fa-user"></i></Nav.Link>
+                            <Button className=' btn nav-item text-white bg-dark fw-bold rounded-pill' href=" #freetrial">Start Your Free Trial</Button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

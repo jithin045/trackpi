@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form';
 
 function FreeGuide() {
@@ -24,8 +24,9 @@ function FreeGuide() {
                             <br />
                             <Form.Control size="sm" type="text" placeholder="Email Address" />
                         </div>
-                        <span className='text-white m-2 p-2 bg-dark rounded-pill mt-3'>
-                            <i class="fa-solid fa-download me-3"></i>DOWNLOAD THE GUIDE</span>
+                        <Button className='btn text-white bg-dark fw-bold p-1 rounded-pill mt-2'>
+                            <i class="fa-solid fa-download ms-2 me-2"></i>DOWNLOAD THE GUIDE</Button>
+
                     </Col>
                     <Col md={6} className='p-5 d-flex justify-content-center align-items-center'>
                         <img
@@ -33,12 +34,11 @@ function FreeGuide() {
                             width="100%"
                             className="d-inline-block  p-5"
                             alt="employee-image"
-
                         />
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </section >
     )
 }
 

@@ -6,16 +6,11 @@ import Card from 'react-bootstrap/Card';
 function Highlights() {
     return (
         <section className='' id='' >
-            <Container className='mb-5'>
-
+            <Container className='mb-5 mt-5'>
+                <h2 className='text-center fw-bold mb-5'>Motivating Morning is a virtual coworking community<br /> proven to help you do the work.</h2>
                 <Row style={{ justifyContent: "center", alignItems: "center", marginTop: "50px", marginBottom: "50px" }}>
-                    <Col
-                        md={4}
-                        style={{
-
-                        }}
-                    >
-                        <Card className='card' style={{ width: '22rem', borderRadius: '10px', border: "none" }}>
+                    <Col md={4}>
+                        <Card className='card' style={{ width: '20rem', borderRadius: '10px', border: "none" }}>
                             <Card.Img className='card-img' variant="top" src="src/assets/images/mngcalls.png" />
                             <Card.Body className='card-body text-center'>
                                 <span className='fw-bold text-dark'>Morning Kick-Off Calls</span>
@@ -25,13 +20,8 @@ function Highlights() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col
-                        md={4}
-                        style={{
-
-                        }}
-                    >
-                        <Card className='card' style={{ width: '22rem', borderRadius: '10px', border: "none" }}>
+                    <Col md={4}>
+                        <Card className='card' style={{ width: '20rem', borderRadius: '10px', border: "none" }}>
                             <Card.Img className='card-img' variant="top" src="src/assets/images/coworking.png" />
                             <Card.Body className='card-body text-center'>
                                 <span className='fw-bold text-dark'>Virtual Coworking</span>
@@ -41,13 +31,8 @@ function Highlights() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col
-                        md={4}
-                        style={{
-
-                        }}
-                    >
-                        <Card className='card' style={{ width: '22rem', borderRadius: '10px', border: "none" }}>
+                    <Col md={4}>
+                        <Card className='card' style={{ width: '20rem', borderRadius: '10px', border: "none" }}>
                             <Card.Img className='card-img' variant="top" src="src/assets/images/slack.png" />
                             <Card.Body className='card-body text-center'>
                                 <span className='fw-bold text-dark'>Private Slack Group</span>
@@ -59,13 +44,8 @@ function Highlights() {
                     </Col>
                 </Row>
                 <Row style={{ justifyContent: "center", alignItems: "center", marginTop: "50px", marginBottom: "50px" }}>
-                    <Col
-                        md={4}
-                        style={{
-
-                        }}
-                    >
-                        <Card className='card' style={{ width: '22rem', borderRadius: '10px', border: "none" }}>
+                    <Col md={4}>
+                        <Card className='card' style={{ width: '20rem', borderRadius: '10px', border: "none" }}>
                             <Card.Img className='card-img' variant="top" src="src/assets/images/coaching.png" />
                             <Card.Body className='card-body text-center'>
                                 <span className='fw-bold text-dark'>Productivity Coaching Sessions*</span>
@@ -75,13 +55,8 @@ function Highlights() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col
-                        md={4}
-                        style={{
-
-                        }}
-                    >
-                        <Card className='card' style={{ width: '22rem', borderRadius: '10px', border: "none" }}>
+                    <Col md={4}>
+                        <Card className='card' style={{ width: '20rem', borderRadius: '10px', border: "none" }}>
                             <Card.Img className='card-img' variant="top" src="src/assets/images/actionplan.png" />
                             <Card.Body className='card-body text-center'>
                                 <span className='fw-bold text-dark'>Private Slack Group</span>
@@ -93,7 +68,7 @@ function Highlights() {
                     </Col>
 
                 </Row>
-                <div className='text-center'>* Available exclusively with the Pro plan</div>
+                <div className='text-center'><b>* </b>Available exclusively with the Pro plan</div>
             </Container>
         </section>
     )

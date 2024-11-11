@@ -8,25 +8,31 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none
+}
+
+/* body styling */
 body {
     font-family: "Sofia Sans", sans-serif;
-    /* font-optical-sizing: auto; */
     font-style: normal;
 }
 
-.nav-item {
-    text-decoration: none;
-    font-weight: bold;
+/* card styling */
+#card {
+    background-color: white;
 }
 
-.nav-item:hover {
-    color: white;
+#card:hover {
+    background-color: aqua;
 }
 
+/* header styling */
 .nav-subhead {
     font-family: "Sofia", cursive;
 }
 
+/* hero styling */
 .hero {
     width: 100%;
     height: 600px;
@@ -34,15 +40,14 @@ body {
     clip-path: polygon(100% 0%, 0% 0%, 0.00% 65.58%, 1.00% 66.79%, 2.00% 68.00%, 3.00% 69.19%, 4.00% 70.37%, 5.00% 71.54%, 6.00% 72.70%, 7.00% 73.83%, 8.00% 74.95%, 9.00% 76.05%, 10.00% 77.14%, 11.00% 78.20%, 12.00% 79.24%, 13.00% 80.26%, 14.00% 81.26%, 15.00% 82.23%, 16.00% 83.17%, 17.00% 84.09%, 18.00% 84.99%, 19.00% 85.85%, 20.00% 86.69%, 21.00% 87.49%, 22.00% 88.27%, 23.00% 89.01%, 24.00% 89.73%, 25.00% 90.41%, 26.00% 91.05%, 27.00% 91.67%, 28.00% 92.24%, 29.00% 92.79%, 30.00% 93.29%, 31.00% 93.76%, 32.00% 94.20%, 33.00% 94.60%, 34.00% 94.96%, 35.00% 95.28%, 36.00% 95.56%, 37.00% 95.81%, 38.00% 96.01%, 39.00% 96.18%, 40.00% 96.31%, 41.00% 96.40%, 42.00% 96.45%, 43.00% 96.46%, 44.00% 96.43%, 45.00% 96.36%, 46.00% 96.26%, 47.00% 96.11%, 48.00% 95.93%, 49.00% 95.70%, 50.00% 95.44%, 51.00% 95.14%, 52.00% 94.80%, 53.00% 94.42%, 54.00% 94.01%, 55.00% 93.56%, 56.00% 93.07%, 57.00% 92.55%, 58.00% 91.99%, 59.00% 91.40%, 60.00% 90.77%, 61.00% 90.11%, 62.00% 89.41%, 63.00% 88.69%, 64.00% 87.93%, 65.00% 87.14%, 66.00% 86.32%, 67.00% 85.47%, 68.00% 84.59%, 69.00% 83.69%, 70.00% 82.76%, 71.00% 81.80%, 72.00% 80.82%, 73.00% 79.81%, 74.00% 78.78%, 75.00% 77.73%, 76.00% 76.66%, 77.00% 75.57%, 78.00% 74.46%, 79.00% 73.33%, 80.00% 72.18%, 81.00% 71.02%, 82.00% 69.85%, 83.00% 68.66%, 84.00% 67.46%, 85.00% 66.26%, 86.00% 65.04%, 87.00% 63.81%, 88.00% 62.57%, 89.00% 61.33%, 90.00% 60.09%, 91.00% 58.84%, 92.00% 57.59%, 93.00% 56.34%, 94.00% 55.09%, 95.00% 53.84%, 96.00% 52.59%, 97.00% 51.35%, 98.00% 50.11%, 99.00% 48.88%, 100.00% 47.65%);
     overflow: hidden;
     position: relative;
-    font-size: 1.2em;
+    font-size: 1rem;
     z-index: -1;
 }
 
 .herocontainer {
     position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+     width: 100%;
+    height: 100%
 }
 
 .hero-img {
@@ -50,24 +55,17 @@ body {
     z-index: 2;
 }
 
-.hero-btn {
-    background-color: rgb(49, 46, 46);
-    color: #fff;
-}
-
-.hero-btn:hover {
-    background-color: red;
-}
-
+/* for small screen */
 @media screen and (max-width: 600px) {
     .hero-img {
-      width: 150px;
-      height: 150px;
-      position: absolute;
+        width: 150px;
+        height: 150px;
+        position: absolute;
     }
-  }
+}
 
 
+/* feature section styling */
 .feature {
     width: 100%;
     height: 500px;
@@ -78,7 +76,7 @@ body {
     font-size: 1em;
 }
 
-
+/* freeguide section styling */
 .freeguide {
     width: 100%;
     height: 500px;
@@ -89,7 +87,7 @@ body {
     font-size: 1em;
 }
 
-
+/* priceplan section styling */
 .priceplan {
     width: 100%;
     height: 500px;
@@ -100,16 +98,16 @@ body {
     font-size: 1.2em;
 }
 
-
+/* for small screen */
 @media screen and (max-width: 600px) {
     .card {
-      width: 10rem;
-      
+        width: 10rem;
+
     }
-  }
+}
 
 
-
+/* card styling */
 .card {
     width: 22rem;
     border-radius: 10px;
@@ -118,13 +116,3 @@ body {
 
 
 
-/* footer styling */
-
-.footer {
-    height: 600px;
-
-}
-
-.footer-btn {
-    background-color: #e8c05a;
-}
