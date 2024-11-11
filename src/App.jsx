@@ -10,6 +10,7 @@ import Feature from './components/Feature';
 import Guide from './components/Guide';
 import PricePlan from './components/PricePlan';
 import Highlights from './components/Highlights';
+import FreeGuide from './components/FreeGuide';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Highlights />
       <PricePlan />
       <Guide />
+      <FreeGuide />
       <Footer />
 
     </>
