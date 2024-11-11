@@ -59,6 +59,14 @@ body {
     background-color: red;
 }
 
+@media screen and (max-width: 600px) {
+    .hero-img {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+    }
+  }
+
 
 .feature {
     width: 100%;
@@ -91,6 +99,15 @@ body {
     position: relative;
     font-size: 1.2em;
 }
+
+
+@media screen and (max-width: 600px) {
+    .card {
+      width: 10rem;
+      
+    }
+  }
+
 
 
 .card {

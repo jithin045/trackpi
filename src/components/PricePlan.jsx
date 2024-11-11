@@ -11,7 +11,7 @@ function PricePlan() {
                 <Row className='pt-5'>
                     <h3 className='fw-bold mb-4 text-center'>Start with a free trial. Change your plan anytime.</h3>
                     <Col md={6} className='d-flex justify-content-end'>
-                        <Card style={{ width: '20rem' }}>
+                        <Card style={{ width: '20rem' }} className='card'>
                             <Card.Body>
                                 <Card.Title className='fw-bold display-6 text-center'>MoMo</Card.Title>
                                 <Card.Text className='display-6 text-center'>
@@ -23,7 +23,7 @@ function PricePlan() {
                         </Card>
                     </Col>
                     <Col md={6} className='d-flex justify-content-start'>
-                        <Card style={{ width: '20rem' }}>
+                        <Card style={{ width: '20rem' }} className='card'>
                             <Card.Body>
                                 <Card.Title className='fw-bold display-6 text-center'>MoMo Pro</Card.Title>
                                 <Card.Text className='display-6 text-center'>

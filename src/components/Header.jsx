@@ -27,8 +27,8 @@ function Header() {
 
                             <Col >
                                 <h1 className='text-dark' style={{ fontWeight: "bold" }}>MOTIVATED</h1>
-                                <h1 className='nav-subhead text-dark' style={{ fontStyle: "italic" }}>mornings</h1>
-                            </Col><br />
+                                <h2 className='nav-subhead text-dark' style={{ fontStyle: "italic" }}>mornings</h2>
+                            </Col>
 
                         </Row>
                     </Navbar.Brand>

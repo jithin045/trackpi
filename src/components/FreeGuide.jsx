@@ -12,9 +12,9 @@ function FreeGuide() {
                         <h6 className='fw-bold mb-2'>FREE GUIDE</h6>
                         <h2 className='fw-bold mb-3'>8 Secrets to <br /> Doing Work <br /> That Matters</h2>
                         <div className='d-flex flex-column justify-content-evenly align-items-start'>
-                            <div><i className="fa-regular fa-square-check me-3 ms-3" style={{ color: "#FFD43B;" }}></i>Experiencing your habbit transform</div>
-                            <div><i className="fa-regular fa-square-check me-3 ms-3" style={{ color: "#FFD43B;" }}></i>Accessing tools, peoples and expertise</div>
-                            <div><i className="fa-regular fa-square-check me-3 ms-3" style={{ color: "#FFD43B;" }}></i>Seeing your work move forward</div>
+                            <div><i className="fa-regular fa-circle-check me-3 ms-3" style={{ color: "#FFD43B;" }}></i>Experiencing your habbit transform</div>
+                            <div><i className="fa-regular fa-circle-check me-3 ms-3" style={{ color: "#FFD43B;" }}></i>Accessing tools, peoples and expertise</div>
+                            <div><i className="fa-regular fa-circle-check me-3 ms-3" style={{ color: "#FFD43B;" }}></i>Seeing your work move forward</div>
                         </div>
 
                         <div className='mt-2 d-flex flex-column justify-content-evenly align-items-start'>
