@@ -1,6 +1,10 @@
-# React + Vite
+# Trackpi Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this project implemented the frontend part of a website(Motivated mornings)-web view
+
+To run the app in localhost : npm run dev
+
+localhost PORT number: http://localhost:5173/5174
 
 Currently, two official plugins are available:
 
